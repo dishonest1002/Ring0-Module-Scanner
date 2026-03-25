@@ -48,20 +48,11 @@ Issue: Encountered during initial implementation of the system thread contexts.
 
 Resolution: Fixed via proper stack alignment and exception handling.
 
-<img width="941" height="302" alt="Снимок экрана 2026-03-25 194951" src="https://github.com/user-attachments/assets/aebc3e2b-2515-4b54-8951-b4f35b36cab6" />
-<img width="731" height="392" alt="Снимок экрана 2026-03-25 194958" src="https://github.com/user-attachments/assets/40ec4b11-cec5-4970-8731-949831a4b0f4" />
-<img width="1483" height="629" alt="Снимок экрана 2026-03-25 195009" src="https://github.com/user-attachments/assets/abdb3692-6a85-40c0-aaea-44b7c32073e7" />
-<img width="1083" height="578" alt="Снимок экрана 2026-03-25 195018" src="https://github.com/user-attachments/assets/c7bc1d0a-91d1-483c-b693-752dadff9a8b" />
-
 PAGE_FAULT_IN_NONPAGED_AREA (50)
 
 Issue: Occurred during heuristic memory scanning of unallocated regions.
 
 Resolution: Implemented rigorous MmIsAddressValid checks and SEH (__try/__except) blocks.
-
-<img width="881" height="511" alt="Снимок экрана 2026-03-25 194557" src="https://github.com/user-attachments/assets/58d1d859-9205-4d00-b0db-800524c5e750" />
-<img width="1434" height="385" alt="Снимок экрана 2026-03-25 194606" src="https://github.com/user-attachments/assets/c769618f-6302-44a2-a39c-98225cf77d15" />
-<img width="1510" height="564" alt="Снимок экрана 2026-03-25 194627" src="https://github.com/user-attachments/assets/c9dcee9f-3a82-495e-93bb-fd5b6aa76057" />
 
  Build & Setup
 Requirements
