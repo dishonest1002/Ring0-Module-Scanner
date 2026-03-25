@@ -47,20 +47,21 @@ KMODE_EXCEPTION_NOT_HANDLED (1e)
 Issue: Encountered during initial implementation of the system thread contexts.
 
 Resolution: Fixed via proper stack alignment and exception handling.
-<img width="1483" height="629" alt="Снимок экрана 2026-03-25 195009" src="https://github.com/user-attachments/assets/f11398c7-657c-4aa3-8b0a-5d420042e38a" />
-<img width="731" height="392" alt="Снимок экрана 2026-03-25 194958" src="https://github.com/user-attachments/assets/2eeee727-0e54-43a9-a128-a8477d6372d2" />
-<img width="941" height="302" alt="Снимок экрана 2026-03-25 194951" src="https://github.com/user-attachments/assets/36107781-c7c0-4fb3-a528-dceabbf77253" />
-<img width="1083" height="578" alt="Снимок экрана 2026-03-25 195018" src="https://github.com/user-attachments/assets/567a5ee8-a8b1-4860-9418-3bf1d3dcc196" />
+
+<img width="941" height="302" alt="Снимок экрана 2026-03-25 194951" src="https://github.com/user-attachments/assets/aebc3e2b-2515-4b54-8951-b4f35b36cab6" />
+<img width="731" height="392" alt="Снимок экрана 2026-03-25 194958" src="https://github.com/user-attachments/assets/40ec4b11-cec5-4970-8731-949831a4b0f4" />
+<img width="1483" height="629" alt="Снимок экрана 2026-03-25 195009" src="https://github.com/user-attachments/assets/abdb3692-6a85-40c0-aaea-44b7c32073e7" />
+<img width="1083" height="578" alt="Снимок экрана 2026-03-25 195018" src="https://github.com/user-attachments/assets/c7bc1d0a-91d1-483c-b693-752dadff9a8b" />
 
 PAGE_FAULT_IN_NONPAGED_AREA (50)
 
 Issue: Occurred during heuristic memory scanning of unallocated regions.
 
 Resolution: Implemented rigorous MmIsAddressValid checks and SEH (__try/__except) blocks.
-<img width="1510" height="564" alt="Снимок экрана 2026-03-25 194627" src="https://github.com/user-attachments/assets/da9cc9e3-b3e9-4d13-91b2-83abf325153b" />
-<img width="1434" height="385" alt="Снимок экрана 2026-03-25 194606" src="https://github.com/user-attachments/assets/e178ce7b-7c3a-4895-8f6f-1c9a2443d3bd" />
-<img width="881" height="511" alt="Снимок экрана 2026-03-25 194557" src="https://github.com/user-attachments/assets/88430896-22c4-4e33-bebc-76a53d019af2" />
 
+<img width="881" height="511" alt="Снимок экрана 2026-03-25 194557" src="https://github.com/user-attachments/assets/58d1d859-9205-4d00-b0db-800524c5e750" />
+<img width="1434" height="385" alt="Снимок экрана 2026-03-25 194606" src="https://github.com/user-attachments/assets/c769618f-6302-44a2-a39c-98225cf77d15" />
+<img width="1510" height="564" alt="Снимок экрана 2026-03-25 194627" src="https://github.com/user-attachments/assets/c9dcee9f-3a82-495e-93bb-fd5b6aa76057" />
 
  Build & Setup
 Requirements
