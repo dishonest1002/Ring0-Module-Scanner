@@ -10,13 +10,9 @@ A high-performance Windows kernel-mode driver and user-mode client for scanning 
 ##  Media & Demo
 
 ### Main Interface & Successful Detection
-<img width="841" height="381" alt="Снимок экрана 2026-03-25 193058" src="https://github.com/user-attachments/assets/8a282d78-4944-40f0-a24e-7bfb8078af8d" />
 
 ### Kernel-Mode Logging (DebugView)
-<img width="248" height="523" alt="Снимок экрана 2026-03-25 181713" src="https://github.com/user-attachments/assets/98369d7b-1f8a-41b1-94d0-d5e83b918b17" />
-
 ---
-
 ##  Features
 
 -  **Module enumeration** — lists all loaded kernel drivers with signature metadata.
